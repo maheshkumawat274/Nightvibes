@@ -1,0 +1,210 @@
+body{
+    overflow: hidden;
+}
+.night{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.star{
+height: 50px;
+width: 50px;
+position: relative;
+left: 20%;
+float: left;
+animation: star 10s 0s ease-in-out infinite;
+}
+.star1{
+height: 50px;
+width: 50px;
+position: relative;
+left: 23%;
+top: 20%;
+float: left;
+animation: star1 10s 1s ease-in-out infinite;
+}
+.star2{
+height: 50px;
+width: 50px;
+position: relative;
+left: 30%;
+top: 5%;
+float: left;
+animation: star2 10s 2s ease-in-out infinite;
+}
+
+.star3{
+height: 50px;
+width: 50px;
+position: relative;
+left: 40%;
+top: 35%;
+float: left;
+animation: star3 10s 3s ease-in-out infinite;
+}
+
+.star4{
+height: 50px;
+width: 50px;
+position: relative;
+left: 35%;
+top: 15%;
+float: left;
+animation: star4 10s 4s ease-in-out infinite;
+}
+
+.star5{
+height: 50px;
+width: 50px;
+position: relative;
+left: 58%;
+top: 7%;
+float: left;
+animation: star5 10s 5s ease-in-out infinite;
+}
+
+.star6{
+height: 50px;
+width: 50px;
+position: relative;
+left: 45%;
+top: 10%;
+float: left;
+animation: star6 10s 6s ease-in-out infinite;
+}
+.star7{
+height: 50px;
+width: 50px;
+position: relative;
+left: 60%;
+top: 20%;
+float: left;
+animation: star7 10s 7s ease-in-out infinite;
+}
+.moon{
+height: 200px;
+width: 200px;
+position: relative;
+left: 35%;
+top: 30%;
+float: left;
+animation: moon 40s linear infinite;
+}
+.shiv{
+    height: 350px;
+width: 350px;
+position: relative;
+top: 20%;
+right: 15%;
+float: left;
+
+}
+.city{
+height: 60%;
+width: 100%;
+background-image: url(images/Night-City-PNG-Photo.png);
+background-size: cover;
+position: relative;
+top: 40%;
+}
+.sitting{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 55%;
+
+
+}
+@keyframes moon{
+100%{
+    transform: rotate(360deg);
+}
+}
+@keyframes star{
+0%,20%,40%,60%,80%,100%
+{
+    opacity: 5;
+}
+10%,30%,50%,70%,90%,100%
+{
+    opacity: 00;
+}
+}
+@keyframes star1{
+0%,20%,40%,60%,80%,100%
+{
+    opacity: 5;
+}
+10%,30%,50%,70%,90%,100%
+{
+    opacity: 00;
+}
+}
+@keyframes star2{
+0%,20%,40%,60%,80%,100%
+{
+    opacity: 5;
+}
+10%,30%,50%,70%,90%,100%
+{
+    opacity: 00;
+}
+}
+@keyframes star3{
+    0%,20%,40%,60%,80%,100%
+    {
+        opacity: 5;
+    }
+    10%,30%,50%,70%,90%,100%
+    {
+        opacity: 00;
+    }
+}
+@keyframes star4{
+    0%,20%,40%,60%,80%,100%
+    {
+        opacity: 5;
+    }
+    10%,30%,50%,70%,90%,100%
+    {
+        opacity: 00;
+    }
+}
+@keyframes star5{
+    0%,20%,40%,60%,80%,100%
+    {
+        opacity: 5;
+    }
+    10%,30%,50%,70%,90%,100%
+    {
+        opacity: 00;
+    }
+}
+@keyframes star6{
+    0%,20%,40%,60%,80%,100%
+    {
+        opacity: 5;
+    }
+    10%,30%,50%,70%,90%,100%
+    {
+        opacity: 00;
+    }
+}
+@keyframes star7{
+    0%,20%,40%,60%,80%,100%
+    {
+        opacity: 5;
+    }
+    10%,30%,50%,70%,90%,100%
+    {
+        opacity: 00;
+    }
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: rgb(133, 185, 133);
+    }
+  }
+  body{
+       overflow: hidden;
+  }
